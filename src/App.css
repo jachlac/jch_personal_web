@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -22,17 +22,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+body {
+ font-family: 'Consolas';
+font-size: 16px;
+line-height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.holder {
+ width: 960px;
+ margin:0 auto;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+h2 {
+font-weight: 800;
+color:#548f4d ;
+margin: 0 0 1em;
+   }
+   
