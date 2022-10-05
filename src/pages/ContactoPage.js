@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/Pages/Contacto.css';
+
 const Contacto = (props) => {
     return (
         <main className='holder contacto'>
@@ -41,6 +43,9 @@ const Contacto = (props) => {
                     </div>
                     <div>
                     <img src="./images/pages/contacto/linkedin.png" width={50} alt="linkedin"></img>
+                    </div>
+                    <div>
+                    <img src="./images/pages/contacto/github.png" width={50} alt="github"></img>
                     </div>
 
                 </ul>
